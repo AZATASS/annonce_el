@@ -394,7 +394,7 @@ textarea.input {
   display: inline-block;
   vertical-align: top;
   padding: 15px 0px;
-  min-width: 200px;
+  min-width: 210px;
 }
 
 .header-btns>li+li {

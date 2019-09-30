@@ -412,6 +412,28 @@
     <script src="<?= js_url('assets/js/js.page/',$js_page); ?>"></script>
   <?php endif ?>
 
+  <!-- Pagination -->
+  <script src="<?= js_url('assets/js/pagination/','pagination.min'); ?>"></script>
+  <script type="text/javascript">
+    $(function() {
+        $('.view_page').hide(); // Cacher toute les pages
+        $('#page_1').show(500); // Afficher la première page
+
+        $('#page').Pagination({
+            size: "<?= $nbre_post_total; ?>", //Nombre total d'éléments
+            pageShow: 5, //Nombre de page à afficher
+            page: 1, //Page affichée
+            limit: "<?= $nbre_post_par_page; ?>", //Nombre élément par page
+        }, function(obj){
+            $('.view_page').hide(500);
+            $('#page_'+obj.page).show(500);
+        });
+        $('.pagination').children('li').eq(1).addClass('active'); 
+        // Séléctionne la première page
+    });
+  </script>
+  <!-- Pagination -->
+
 </body>
 
 </html>

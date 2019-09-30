@@ -17,7 +17,7 @@ class Charge_data extends CI_Controller {
 		$this->load->model('chargement_data_model');
 		$list_ville = $this->chargement_data_model->get_list_ville_par_pays($idpays);
 
-		$list_option_ville = "<option value='0' selected>Choisissez une ville</option>";
+		$list_option_ville = "<option value='' selected>Choisissez une ville</option>";
 		foreach ($list_ville as $ville) :
 	        $list_option_ville .= '<option value="'.$ville["id"].'">'.$ville["libelle"].'</option>';
         endforeach;
