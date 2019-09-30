@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>EasyLinked</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- top Header -->
+		<div id="top-header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- <span>Bienvenue sur Easylinked</span> -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-top-links">
+						<li><a href="#">Newsletter</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">FR <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">Anglais (ENG)</a></li>
+								<li><a href="#">Russe (Ru)</a></li>
+								<li><a href="#">Français (FR)</a></li>
+								<li><a href="#">Espanol (Es)</a></li>
+							</ul>
+						</li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">XOF <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">Franc CFA (XOF)</a></li>
+								<li><a href="#">USD ($)</a></li>
+								<li><a href="#">EUR (€)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /top Header -->
+
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="#">
+							<img src="./img/logo.png" alt="">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Search -->
+					<div class="header-search">
+						<form>
+							<input class="input search-input" type="text" placeholder="Entrez votre mot clé">
+							<select class="input search-categories">
+								<option value="0">Toutes Catégories</option>
+								<option value="1">Catégorie 01</option>
+								<option value="2">Catégorie 01</option>
+								<option value="3">Catégorie 01</option>
+								<option value="4">Catégorie 01</option>
+							</select>
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+					<!-- /Search -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user-o"></i>
+								</div>
+								<strong class="text-uppercase">Mon compte <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-uppercase">S'identifier</a>
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-exchange"></i> Publier une annonce</a></li>
+								<li><a href="#"><i class="fa fa-heart-o"></i> Mes favoris</a></li>
+								<li><a href="inscript.html"><i class="fa fa-user-plus"></i> Créer un compte</a></li>
+								<li><a href="#"><i class="fa fa-check"></i> Mot de passe oublier</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<div id="navigation">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				<!-- category nav -->
+				<div class="category-nav show-on-click">
+					<span class="category-header">Catégories <i class="fa fa-list"></i></span>
+					<ul class="category-list">
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Catégorie 01 <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 11</h3></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 22</h3></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 33</h3></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row hidden-sm hidden-xs">
+									<div class="col-md-12">
+										<hr>
+										<a class="banner banner-1" href="#">
+											<img src="./img/logo.png" alt="">
+											<div class="banner-caption text-center">
+												<h2 class="white-color">Text</h2>
+												<h3 class="white-color font-weak">Text</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Catégorie 02</a></li>
+						<li><a href="#">Catégorie 03</a></li>
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Catégorie 04 <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 11</h3></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 22</h3></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 33</h3></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row hidden-sm hidden-xs">
+									<div class="col-md-12">
+										<hr>
+										<a class="banner banner-1" href="#">
+											<img src="./img/logo.png" alt="">
+											<div class="banner-caption text-center">
+												<h2 class="white-color">Text</h2>
+												<h3 class="white-color font-weak">Text</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Catégorie 05</a></li>
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Catégorie 06 <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 11</h3></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+											<li><a href="#">Catégorie 111</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 22</h3></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+											<li><a href="#">Catégorie 222</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Catégorie 33</h3></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+											<li><a href="#">Catégorie 333</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row hidden-sm hidden-xs">
+									<div class="col-md-12">
+										<hr>
+										<a class="banner banner-1" href="#">
+											<img src="./img/logo.png" alt="">
+											<div class="banner-caption text-center">
+												<h2 class="white-color">Text</h2>
+												<h3 class="white-color font-weak">Text</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Toutes les catégories</a></li>
+					</ul>
+				</div>
+				<!-- /category nav -->
+
+				<!-- menu nav -->
+				<div class="menu-nav">
+					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+					<ul class="menu-list">
+						<li class="dropdown mega-dropdown full-width"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> ACCUEIL <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="index.html">
+												<img src="./img/logo.png" alt="">
+												<div class="banner-caption text-center">
+													<!-- <h3 class="white-color text-uppercase">Easylinked</h3> -->
+												</div>
+											</a>
+										</div>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title text-center"><a href="index.html">Page 1</a></h3>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-4">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="index.html">
+												<img src="./img/logo.png" alt="">
+												<div class="banner-caption text-center">
+													<!-- <h3 class="white-color text-uppercase">Easylinked</h3> -->
+												</div>
+											</a>
+										</div>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title text-center"><a href="index.html">Page 2</a></h3>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-4">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="index.html">
+												<img src="./img/logo.png" alt="">
+												<div class="banner-caption text-center">
+													<!-- <h3 class="white-color text-uppercase">Easylinked</h3> -->
+												</div>
+											</a>
+										</div>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title text-center"><a href="index.html">Page 3</a></h3>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="annonces.html">Toutes les annonces</a></li>
+						<li><a href="annonceurs.html">La boutique</a></li>
+						<li><a href="contactez-nous.html">Contactez-nous</a></li>
+					</ul>
+				</div>
+				<!-- menu nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+
+	<!-- BREADCRUMB -->
+	<div id="breadcrumb">
+		<div class="container">
+			<ul class="breadcrumb">
+				<li><a href="#">Acceuil</a></li>
+				<li><a href="#">Annonces</a></li>
+				<li class="active">Details de l'annonce</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /BREADCRUMB -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!--  Product Details -->
+				<div class="product product-details clearfix">
+					<div class="col-md-6">
+						<div class="product-view">
+							<img src="./img/img-annonce-1.jpg" alt="" height="350px">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="product-body">
+							<div class="product-label">
+								<span>Nom de l'annonceur</span>
+							</div>
+							<h4 class="product-name">Titre de l'annonce</h4>
+							<h5 class="product-price">3250 FR</h5>
+							<p><strong>Category:</strong> XXXXXXXX</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<div class="product-btns">
+								<button class="primary-btn add-to-cart"> Contactez l'annonceur</button>
+								<div class="pull-right">
+									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- /Product Details -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section-title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h2 class="title">Les dernières annonces</h2>
+						<div class="pull-right">
+							<div class="product-slick-dots-1 custom-dots"></div>
+						</div>
+					</div>
+				</div>
+				<!-- /section-title -->
+
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="banner banner-2">
+						<img src="./img/banner14.jpg" alt="">
+						<div class="banner-caption">
+							<h2 class="white-color">Bannière de publicité</h2>
+							<button class="primary-btn">Voir plus</button>
+						</div>
+					</div>
+				</div>
+				<!-- /banner -->
+
+				<!-- Product Slick -->
+				<div class="col-md-9 col-sm-6 col-xs-6">
+					<div class="row">
+						<div id="product-slick-1" class="product-slick">
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>Nom de l'annoceur</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Voir</button>
+									<img src="./img/img-annonce-1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h5 class="product-name"><a href="#">Titre de l'annonce</a></h5>
+									<h5 class="product-price">Prix</h5>
+									<p class="desc-annonce">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<a class="primary-btn add-to-cart" href="details-annonce.html"> Voir l'annonce</a>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Product Slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="#">
+		            <img src="./img/logo.png" alt="">
+		          </a>
+						</div>
+						<!-- /footer logo -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							<br>Cel : +225000000000 
+						</p>
+
+						<!-- footer social -->
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+						<!-- /footer social -->
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Les services</h3>
+						<ul class="list-links">
+							<li><a href="#">Comment ça marche ?</a></li>
+							<li><a href="#">Comment vendre rapidement ?</a></li>
+							<li><a href="#">Booster une annonce</a></li>
+							<li><a href="#">Aide</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Les pages du site</h3>
+						<ul class="list-links">
+							<li><a href="#">Accueil</a></li>
+							<li><a href="#">Toutes les annonces</a></li>
+							<li><a href="#">Annonceurs</a></li>
+							<li><a href="#">Contactez-nous</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<!-- footer subscribe -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Rester connecté</h3>
+						<p>Recevoir les nouvelles annonces par mail</p>
+						<form>
+							<div class="form-group">
+								<input class="input" placeholder="Enter Email Address">
+							</div>
+							<button class="primary-btn">S'inscrire à la newsletter</button>
+						</form>
+					</div>
+				</div>
+				<!-- /footer subscribe -->
+			</div>
+			<!-- /row -->
+			<hr>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>© Copyright 2019. Tous droits réservés. Réalisé par AZATASS.</p>
+					</div>
+					<!-- /footer copyright -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
